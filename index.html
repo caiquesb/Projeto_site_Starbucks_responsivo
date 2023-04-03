@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Starbucks Web Site</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c53ee15b4.js" crossorigin="anonymous"></script> <!-- fontawesome.com -->
+    
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+                <div class="logo">
+                    <img src = './images/logo.png'>
+                </div>
+                <div class="menu">
+                    <ul class="nav_bar_menu">
+                        <li><a class="navbar__item" href="#" >Home</a></li>
+                        <li ><a class="navbar__item" href="#" >About</a></li>
+                        <li ><a class="navbar__item" href="#" >Menu</a></li>
+                        <li ><a class="navbar__item" href="#" >What's New</a></li>
+                        <li ><button class="navbar__item_sign_in"><a class="nav__button" href="#" >Sign In</a></button></li>
+                    </ul>              
+                </div>
+                <div class="threeeline-icon">
+                    <span class ='bar'></span>
+                    <span class ='bar'></span>
+                    <span class ='bar'></span>
+                </div>
+        </nav>
+        
+    </header>
+    <section class="about">
+        <div class="texto-sobre">
+            <h1>It's not just coffee<br/>It's <span>StarBucks</span></h1>
+            <p> É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por "lorem ipsum" irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor).</p> 
+            
+            <button>Learn More</button>
+        </div>
+        <div class="sabores">
+            <ul>
+                <li>
+                    <img class="opcoes" src="./images/img1.png" onclick="imgSlider('./images/img1.png'); changeCircleColor('#017143'); sigInColor('#017143')">
+                </li>
+                <li>
+                    <img class="opcoes" src="./images/img2.png" onclick="imgSlider('./images/img2.png'); changeCircleColor('#eb7495'); sigInColor('#eb7495')">
+                </li>
+                <li>
+                    <img class="opcoes" src="./images/img3.png" onclick="imgSlider('./images/img3.png');changeCircleColor('#d752b1'); sigInColor('#d752b1')">
+                </li>
+            </ul>
+        </div>
+        <div class="extras">
+            
+            <div class="img_copo_big">
+                <img class ='img_grande' src="./images/img1.png"/>
+                <div class="media_icons">
+                    <a class = 'social_links'>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>                    
+                    </a>
+                    <a class = 'social_links'  id="teste">
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </a>
+                    <a class = 'social_links'>
+                        <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                    </a>                         
+                </div>         
+            </div>
+            <!-- <div class="media_icons">
+                <a class = 'social_links'>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>                    
+                </a>
+                <a class = 'social_links'>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+                <a class = 'social_links'>
+                    <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                </a>                         
+            </div>-->                  
+        </div>
+        <!-- <div class="texto-sobre">
+            <h1>It's not just coffee<br/>It's <span>StarBucks</span></h1>
+            <p> É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por "lorem ipsum" irá encontrar muitos websites ainda na sua infância. Várias versões têm evoluído ao longo dos anos, por vezes por acidente, por vezes propositadamente (como no caso do humor).</p> 
+            
+            <button>Learn More</button>
+        </div>
+        <div class="sabores">
+            <ul>
+                <li>
+                    <img class="opcoes" src="./images/img1.png" onclick="imgSlider('./images/img1.png'); changeCircleColor('#017143'); sigInColor('#017143')">
+                </li>
+                <li>
+                    <img class="opcoes" src="./images/img2.png" onclick="imgSlider('./images/img2.png'); changeCircleColor('#eb7495'); sigInColor('#eb7495')">
+                </li>
+                <li>
+                    <img class="opcoes" src="./images/img3.png" onclick="imgSlider('./images/img3.png');changeCircleColor('#d752b1'); sigInColor('#d752b1')">
+                </li>
+            </ul>
+        </div> -->
+    </section> 
+    
+    <script type = 'text/javascript' src="./din.js">
+    </script>
+</body>
+</html>
+<!-- https://www.lipsum.com/ -->
